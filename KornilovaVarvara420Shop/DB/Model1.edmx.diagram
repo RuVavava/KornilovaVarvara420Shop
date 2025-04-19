@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="01dfa3214aec4de1bc100c9881b09616" Name="Diagram1">
+        <EntityTypeShape EntityType="KornilovaVarvara_420_ShopModel.HistoryProductCost" Width="1.5" PointX="7.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KornilovaVarvara_420_ShopModel.OrderInPoint" Width="1.5" PointX="7.5" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KornilovaVarvara_420_ShopModel.OrderItems" Width="1.5" PointX="7.5" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="KornilovaVarvara_420_ShopModel.Orders" Width="1.5" PointX="5.25" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KornilovaVarvara_420_ShopModel.OrderTraсking" Width="1.5" PointX="7.5" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="KornilovaVarvara_420_ShopModel.Point" Width="1.5" PointX="5.25" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="KornilovaVarvara_420_ShopModel.Produts" Width="1.5" PointX="5.25" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KornilovaVarvara_420_ShopModel.Role" Width="1.5" PointX="0.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="KornilovaVarvara_420_ShopModel.StatusOrder" Width="1.5" PointX="3" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="KornilovaVarvara_420_ShopModel.StatusTracking" Width="1.5" PointX="5.25" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="KornilovaVarvara_420_ShopModel.sysdiagrams" Width="1.5" PointX="9.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KornilovaVarvara_420_ShopModel.TopUps" Width="1.5" PointX="5.25" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KornilovaVarvara_420_ShopModel.Users" Width="1.5" PointX="3" PointY="6.125" IsExpanded="true" />
+        <AssociationConnector Association="KornilovaVarvara_420_ShopModel.FK_HistoryProductCost_Produts" ManuallyRouted="false" />
+        <AssociationConnector Association="KornilovaVarvara_420_ShopModel.FK_OrderInPoint_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="KornilovaVarvara_420_ShopModel.FK_OrderInPoint_Point" ManuallyRouted="false" />
+        <AssociationConnector Association="KornilovaVarvara_420_ShopModel.FK_OrderItems_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="KornilovaVarvara_420_ShopModel.FK_OrderItems_Produts" ManuallyRouted="false" />
+        <AssociationConnector Association="KornilovaVarvara_420_ShopModel.FK_Orders_StatusOrder" ManuallyRouted="false" />
+        <AssociationConnector Association="KornilovaVarvara_420_ShopModel.FK_Orders_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="KornilovaVarvara_420_ShopModel.FK_OrderTraсking_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="KornilovaVarvara_420_ShopModel.FK_OrderTraсking_StatusTracking" ManuallyRouted="false" />
+        <AssociationConnector Association="KornilovaVarvara_420_ShopModel.FK_Users_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="KornilovaVarvara_420_ShopModel.FK_TopUps_Users" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

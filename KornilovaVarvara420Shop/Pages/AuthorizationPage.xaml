@@ -1,0 +1,141 @@
+﻿<Page x:Class="KornilovaVarvara420Shop.Pages.AuthorizationPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:KornilovaVarvara420Shop.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="1080" d:DesignWidth="1920"
+      Title="Авторизация">
+
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <TextBlock
+            Text="Добро пожаловать в Шайтанэт!"
+            Grid.Column="1"
+            Grid.ColumnSpan="3"
+            Grid.Row="0"
+            Grid.RowSpan="1"
+            FontSize="76"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Foreground="Black"
+            />
+
+
+        <TextBlock
+         Text="Логин"
+         Grid.Column="1"
+         Grid.ColumnSpan="3"
+         Grid.Row="1"
+         Grid.RowSpan="1"
+         FontSize="36"
+         HorizontalAlignment="Center"
+         VerticalAlignment="Bottom"
+         Foreground="Black"
+         />
+
+        <TextBox x:Name="LoginTbx"
+         Grid.Column="1"
+         Grid.ColumnSpan="3"
+         Grid.Row="2"
+         Width="600"
+         Height="70"
+         Grid.RowSpan="1"
+         FontSize="36"
+         HorizontalAlignment="Center"
+         VerticalAlignment="Center"
+         Foreground="Black"
+         />
+
+
+        <TextBlock
+         Text="Пароль"
+         Grid.Column="1"
+         Grid.ColumnSpan="3"
+         Grid.Row="3"
+         Grid.RowSpan="1"
+         FontSize="36"
+         HorizontalAlignment="Center"
+         VerticalAlignment="Top"
+         Foreground="Black"
+         />
+
+
+        <PasswordBox x:Name="PasswordPbx"
+         Grid.Column="1"
+         Grid.ColumnSpan="3"
+         Grid.Row="3"
+         Width="600"
+         Height="70"
+         Grid.RowSpan="1"
+         FontSize="36"
+         HorizontalAlignment="Center"
+         VerticalAlignment="Bottom"
+         Foreground="Black"
+         />
+
+
+
+        <Button x:Name="AuthBtn"
+         Content="Войти"
+         Grid.Column="1"
+         Grid.ColumnSpan="3"
+         Grid.Row="4"
+         Width="350"
+         Height="70"
+         Grid.RowSpan="1"
+         FontSize="36"
+         HorizontalAlignment="Center"
+         VerticalAlignment="Bottom"
+         Foreground="Black"
+         Click="AuthBtn_Click"
+         />
+
+
+        <TextBlock
+            Text="Нет аккаунта? "
+            Grid.Column="1"
+            Grid.ColumnSpan="3"
+            Grid.Row="5"
+            Grid.RowSpan="1"
+            FontSize="36"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Foreground="Black"
+            />
+
+        <Button x:Name="RegBtn"
+         Content="Зарегистрироваться"
+         Grid.Column="2"
+         Grid.ColumnSpan="3"
+         Grid.Row="5"
+         Width="450"
+         Height="60"
+         Grid.RowSpan="1"
+         FontSize="36"
+         HorizontalAlignment="Center"
+         VerticalAlignment="Center"
+         Foreground="Black"
+         Click="RegBtn_Click"
+         />
+
+    </Grid>
+</Page>
