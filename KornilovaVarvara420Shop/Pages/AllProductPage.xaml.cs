@@ -139,6 +139,7 @@ namespace KornilovaVarvara420Shop.Pages
             }
         }
 
+        //Метод свертывания приложения
         private void SvernutBtn_Click(object sender, RoutedEventArgs e)
         {
             MessageBoxResult result = MessageBox.Show(
